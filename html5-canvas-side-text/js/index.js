@@ -24,7 +24,7 @@ var S = {
     if (i !== -1) {
       S.UI.simulate(decodeURI(action).substring(i + 3));
     } else {
-      S.UI.simulate('Welcome|to the|big|family|智友社|#rectangle|#countdown 3||');
+      S.UI.simulate('欢迎|来到|智友社|#rectangle|#countdown 3||');
     }
 
     S.Drawing.loop(function () {
@@ -44,7 +44,7 @@ S.Drawing = (function () {
                      window.oRequestAnimationFrame      ||
                      window.msRequestAnimationFrame     ||
                      function(callback) {
-                       window.setTimeout(callback, 1000 / 60);
+                       window.setTimeout(callback, 100 / 6);
                      };
 
   return {

@@ -58,10 +58,10 @@ body,
 
 .ui {
   position: absolute;
-  left: 50%;
-  bottom: 5%;
-  width: 300px;
-  margin-left: -150px;
+  left: 0;
+  bottom: 0;
+  width: 0px;
+  margin-left: 0px;
 }
 
 .ui-input {

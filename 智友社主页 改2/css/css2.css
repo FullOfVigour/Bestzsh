@@ -217,12 +217,12 @@ header .nav .menu a:hover+span{
 	margin: 0 25px;
 	list-style: none;
 	float: left;
-	width: 20%;
+	width: 25%;
 }
 .contact .lx1 .fa li img {
 	width: 100%;
-	margin-left: 15px;
-	border: 5px solid #000;
+	margin-left: 25px;
+	border: 5px solid rgba(200,200,200,.6);
 	opacity: 0;
 	transition: opacity .5s;
 }

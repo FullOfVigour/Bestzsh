@@ -42,9 +42,25 @@
 #content #zhonghe #weizhi1{
 	height: 300px;
 }
+#content #zhonghe #weizhi1 ul{
+	margin: 7px -27px;
+	list-style: none;
+}
+#content #zhonghe #weizhi1 ul li{
+	padding: 2px;
+	font-size: 20px;
+}
 #content #zhonghe #weizhi2{
 	float: right;
 	height: 300px;
+}
+#content #zhonghe #weizhi2 ul{
+	margin: 7px -27px;
+	list-style: none;
+}
+#content #zhonghe #weizhi2 ul li{
+	padding: 2px;
+	font-size: 20px;
 }
 #content #zhonghe #times{
 	position: relative;
